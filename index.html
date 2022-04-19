@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Personal Website</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <header>
+          <div class="user">
+               <img src="IMG-20220317-WA0004.jpg" alt="">
+               <h3 class="name">Priyal Jangid</h3>
+               <p class="post">front end developer</p>
+          </div>
+
+          <nav class="navbar">
+               <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+               </ul>
+          </nav>
+     </header>
+
+     <div id="menu" onclick="showBar()" class="fas fa-bars"></div>
+
+     <section class="home" id="home">
+
+          <h3>HI THERE !</h3>
+          <h1>I'M <span>Priyal Jangid</span></h1>
+          <p>
+               and a web developer also with robust problem solving skills and I have enough knowledge of wordpress and
+               python programming
+          </p>
+          <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+     </section>
+     <section class="about" id="about">
+
+          <h1 class="heading"> <span>about</span> me </h1>
+
+          <div class="row">
+
+               <div class="info">
+                    <p>
+                    <h3> I’m from Jaipur in Rajasthan. Currently, I follow computer science engineering in my second
+                         year at university of engineering and managment. I completed my +2 from the Vinayak
+                         International School. I have also read in my school at the same school
+                    </h3>
+                    </p>
+                    <p>
+                    <h3>My strength is my attitude that I like to take the challenge that I can do it, self-taught,
+                         autonomous I have a good team player as well as I have a great ability to lead the team. I can
+                         accept any type of environment. I’m a good listener and a quick peek.
+                    </h3>
+                    </p>
+                    <P>
+                    <h3>My short-term goal is that I want a platform where I can increase my career and with the growth
+                         of organizations like you.
+                    </h3>
+                    </P>
+                    <h3> <span>Coding language : </span> HTML, CSS, Javascript, Python </h3>
+                    <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+               </div>
+     </section>
+     <section class="education" id="education">
+          <h1 class="heading"> my <span>education</span> </h1>
+          <div class="box-container">
+               <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2020</span>
+                    <h3>STUDENT OF B.TECH</h3>
+                    <p>
+                         Enrolled since august 2020 to present
+                    </p>
+                    <p>Taking up specialization courses in data science to broaden skill set</p>
+               </div>
+               <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2021</span>
+                    <h3>Web development</h3>
+                    <p>
+                         Enrolled since july to august by Udeamy
+                    </p>
+                    <img src="" alt="">
+               </div>
+               <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2021</span>
+                    <h3>Hackathon Battel</h3>
+                    <p>
+                         Participate in web-hackathon Battel
+                    </p>
+               </div>
+
+          </div>
+     </section>
+     <section class="works" id="works">
+            <h1 class="heading"> My <span>works</span></h1>
+            <div class="link">
+                <h2>Navigation bar
+               <button> <a href="https://priyal000.github.io/navigation-bar/">Click</a></button></h2>
+               <h2>Mobile Store
+                   <button><a href="https://priyal000.github.io/mobile-store/index.html">Click</a></button>
+               </h2>
+               <h2>Single Page Web
+                   <button><a href="https://priyal000.github.io/responsive-singlepage-website/">Click</a></button>
+               </h2>
+            </div>
+     </section>
+
+     <section class="contact" id="contact">
+          <h1 class="heading"> <span>contact</span> me </h1>
+          <div class="row">
+               <div class="content">
+                    <h3 class="title">contact info</h3>
+                    <div class="info">
+                         <h3> <i class="fas fa-envelope"></i> jpriyal388@gmail.com </h3>
+                         <h3> <i class="fas fa-phone"></i> 6350694800 </h3>
+                         <h3> <i class="fas fa-map-marker-alt"></i> India, Rajasthan,jaipur </h3>
+                    </div>
+               </div>
+               <form action="">
+                    <input type="text" placeholder="name" class="box">
+                    <input type="email" placeholder="email" class="box">
+                    <input type="text" placeholder="project" class="box">
+                    <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                    <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+               </form>
+               <ul>
+                    <li><i class="fa fa-facebook-f"></i></li>
+               </ul>
+          </div>
+     </section>
+     <a href="#home" class="top">
+          <img src="images/scroll-top-img.png" alt="">
+     </a>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="./index.js "></script>
+</body>
+
+</html>
